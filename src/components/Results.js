@@ -99,9 +99,6 @@ export default class Results extends Component {
       all.push(<>{race3[i]}{size3[i]}{agesm3[i]}{agesf3[i]}</>)     
     }
 
-    console.log(race3, size3, agesm3, agesf3)
-    console.log(all)
-
     for (let i = 0; i < numS; i++) {
       all2.push(<tr><td className='td-state'>{x.snapStates[i]}</td>{all[i]}</tr>)
     }
